@@ -336,6 +336,11 @@ nav {
     cursor: pointer;
 }
 
+.cta-button-discover:hover {
+    background-color: #18a6de;
+    color: #ffffff;
+}
+
 .why-us {
     margin-top: 200px;
     background-image: url(/img/why-us.png);
@@ -394,8 +399,11 @@ nav {
 
 .our-platform {
     margin-top: 200px;
-    height: 600px;
-    border: 1px solid pink;
+}
+
+.platform-img {
+    background-image: url(/img/platform.jpg);
+    height: 300px;
 }
 
 .big-news-letter {
@@ -491,6 +499,11 @@ nav {
     text-align: center;
     padding-top: 6px;
     cursor: pointer;
+}
+
+.cta-button-contact:hover {
+    background-color: #18a6de;
+    color: #ffffff;
 }
 
 .copyright-text {
