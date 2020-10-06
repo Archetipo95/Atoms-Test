@@ -1,10 +1,10 @@
 @font-face {
     font-family: Fira Sans;
-    src: url(/fonts/FiraSans/FiraSans-Regular.ttf);
+    src: url(../fonts/FiraSans/FiraSans-Regular.ttf);
 }
 @font-face {
     font-family: Butler;
-    src: url(/fonts/Butler_and_ButlerStencil/Butler/Butler_Regular.otf);
+    src: url(../fonts/Butler_and_ButlerStencil/Butler/Butler_Regular.otf);
 }
 
 body {
@@ -62,7 +62,7 @@ nav {
     width: 755px;
     height: 566px;
     position: absolute;
-    background-image: url(/img/Blauer\ Detroit\ D5_612.jpg);
+    background-image: url(../img/Detroit.jpg);
     z-index: 10;
     top: 128px;
     right: 200px;
@@ -343,7 +343,7 @@ nav {
 
 .why-us {
     margin-top: 200px;
-    background-image: url(/img/why-us.png);
+    background-image: url(../img/why-us.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -402,7 +402,7 @@ nav {
 }
 
 .platform-img {
-    background-image: url(/img/platform.jpg);
+    background-image: url(../img/platform.jpg);
     height: 300px;
 }
 
