@@ -7,22 +7,22 @@
     src: url(/fonts/Butler_and_ButlerStencil/Butler/Butler_Regular.otf);
 }
 
+body {
+    overflow-x: hidden;
+    background-color: #f2f4f6;
+}
+
 nav {
     font-size: 14px;
     line-height: 20px;
-    color: #484A54;
+    color: #484a54;
     font-weight: 800;
     font-family: "Fira Sans";
     text-align: center;
 }
 
-.navbar-brand {
-    font-size: 1.5em;
-    font-weight: 600;
-}
-
 .active {
-    background-color: #18A6DE;
+    background-color: #18a6de;
     border-radius: 20px;
     padding: 0 20px;
     padding-top: 3px;
@@ -49,7 +49,7 @@ nav {
     width: 880px;
     height: 880px;
     border-radius: 440px;
-    background-color: #80C7E5;
+    background-color: #80c7e5;
     opacity: 0.56;
     position: absolute;
     top: 96px;
@@ -71,7 +71,7 @@ nav {
 .text-over {
     height: 160px;
     width: 814px;
-    color: #293E59;
+    color: #293e59;
     font-family: Butler;
     font-size: 72px;
     font-weight: bold;
@@ -85,20 +85,20 @@ nav {
 .how-we-helped-blumar {
     height: 48px;
     width: 329px;
-    color: #9B9B9B;
+    color: #9b9b9b;
     font-family: "Fira Sans";
     font-size: 16px;
     letter-spacing: 0;
     line-height: 24px;
     top: 380px;
     position: absolute;
-  }
+}
 
-  .cta-button-outline-blue {
+.cta-button-outline-blue {
     height: 42px;
     width: 121px;
-    color: #18A6DE;
-    border: 2px solid #18A6DE;
+    color: #18a6de;
+    border: 2px solid #18a6de;
     font-weight: 600;
     border-radius: 20px;
     padding: 0 15px;
@@ -108,36 +108,36 @@ nav {
     left: -15px;
     position: relative;
     cursor: pointer;
-  }
+}
 
-  .cta-button-outline-blue:hover {
-    background-color: #18A6DE;
+.cta-button-outline-blue:hover {
+    background-color: #18a6de;
     color: white;
     border: none;
-  }
+}
 
-  .blumarine {
+.blumarine {
     height: 32px;
     width: 98px;
-    color: #484A54;
+    color: #484a54;
     font-family: Butler;
     font-size: 24px;
     letter-spacing: -0.3px;
     line-height: 32px;
     text-align: right;
-  }
+}
 
-  .front-end-design-ux {
+.front-end-design-ux {
     height: 18px;
     width: 131px;
-    color: #9B9B9B;
+    color: #9b9b9b;
     font-family: "Fira Sans";
     font-size: 12px;
     letter-spacing: 0;
     line-height: 18px;
     text-align: right;
     font-weight: 300;
-  }
+}
 
 .hero-ux {
     position: relative;
@@ -151,61 +151,408 @@ nav {
     top: 50px;
 }
 
-  .group-3 {
+.group-3 {
     box-sizing: border-box;
     height: 2px;
     width: 638px;
-    background-color: #80C7E5;
+    background-color: #80c7e5;
     position: relative;
     top: 17px;
     left: 14px;
-  }
+}
 
-  .oval {
+.oval {
     border-radius: 100%;
-  }
+}
 
-  .oval-out {
+.oval-out {
     box-sizing: border-box;
     height: 34px;
     width: 34px;
-    border: 2px solid #18A6DE;
-  }
+    border: 2px solid #18a6de;
+}
 .oval-in {
     height: 8px;
     width: 8px;
-    background-color: #18A6DE;
-    
+    background-color: #18a6de;
+
     position: relative;
 }
 
-  .oval-in-1 {
+.oval-in-1 {
     top: 11px;
-    left:  12px;
-  }
+    left: 12px;
+}
 
-  .oval-in-2 {
+.oval-in-2 {
     top: -22px;
-    left:  212px;
-  }
+    left: 212px;
+}
 
-  .oval-in-3 {
+.oval-in-3 {
     top: -30px;
-    left:  424px;
-  }
+    left: 424px;
+}
 
-  .oval-in-4 {
+.oval-in-4 {
     top: -38px;
-    left:  649px;
-  }
+    left: 649px;
+}
 
-  .zerogrey-is-a-et-ius {
+.news-letter {
+    height: 294px;
+    width: 486px;
+    background-color: #293e59;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 50;
+    padding: 50px;
+}
+
+.header-news-letter h1,
+.header-news-letter img {
+    display: inline;
+}
+
+.header-news-letter h1 {
+    height: 40px;
+    width: 225px;
+    color: #ffffff;
+    font-family: Butler;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+}
+
+.header-news-letter img {
+    float: right;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.body-news-letter {
+    height: 40px;
+    width: 390px;
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: 30px;
+    max-width: 90%;
+}
+
+.body-news-letter #email {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.body-news-letter img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.zerogrey-is-a-et-ius {
     height: 120px;
     width: 867px;
-    color: #484A54;
+    color: #484a54;
     font-family: Butler;
     font-size: 32px;
     letter-spacing: -0.3px;
     line-height: 40px;
     text-align: center;
+}
+
+.privacy {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.body-news-letter hr {
+    background-color: #ffffff;
+}
+
+.service {
+    min-height: 100vw;
+}
+
+.circle-service-1 {
+    border-radius: 100%;
+    position: absolute;
+    top: 1330px;
+    left: 607px;
+    z-index: -1;
+    height: 1031.25px;
+    width: 1031.25px;
+    opacity: 0.16;
+    background-color: #80c7e5;
+}
+
+.circle-service-2 {
+    border-radius: 100%;
+    position: absolute;
+    top: 1096px;
+    left: 373px;
+    z-index: -1;
+    height: 1500px;
+    width: 1500px;
+    opacity: 0.08;
+    background-color: #80c7e5;
+}
+
+.services {
+    margin-top: 200px;
+}
+
+.how-help {
+    height: 168px;
+    width: 308px;
+    color: #293E59;
+    font-family: Butler;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 56px;
+}
+
+.cta-button-discover {
+    height: 42px;
+    width: 186px;
+    color: #18a6de;
+    border: 2px solid #18a6de;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 0 10px;
+    text-align: center;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.why-us {
+    margin-top: 200px;
+    background-image: url(/img/why-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    z-index: 10;
+}
+
+.why-us-text {
+    height: 112px;
+    width: 421px;
+    color: #FFFFFF;
+    font-family: Butler;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 56px;
+    text-align: right;
   }
+
+.why-us-p {
+    height: 48px;
+    width: 421px;
+    color: #FFFFFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: right;
+  }
+
+.cta-button-discover-white {
+    height: 42px;
+    width: 186px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 0 10px;
+    text-align: center;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.cta-button-discover-white:hover {
+    background-color: #ffffff;
+    color: #293E59;
+}
+
+.blog {
+    margin-top: 200px;
+    height: 800px;
+    border: 1px solid green;
+}
+
+.our-platform {
+    margin-top: 200px;
+    height: 600px;
+    border: 1px solid pink;
+}
+
+.big-news-letter {
+    margin-top: 200px;
+    height: 600px;
+    border: 1px solid yellow;
+}
+
+/* Footer CSS */
+
+.site-footer {
+    background-color: #f2f4f6;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #9b9b9b;
+}
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+.site-footer hr.small {
+    margin: 20px 0;
+}
+
+.lets-talk {
+    height: 64px;
+    width: 230px;
+    color: #293e59;
+    font-family: Butler;
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 64px;
+}
+
+.parag {
+    height: 72px;
+    width: 422px;
+    color: #9b9b9b;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.site-footer a {
+    color: #737373;
+}
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-links li {
+    display: block;
+    margin: 25px 0;
+}
+.footer-links a {
+    color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+.footer-links.inline li {
+    display: inline-block;
+}
+.site-footer .social-icons {
+    text-align: right;
+}
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.cta-button-contact {
+    height: 42px;
+    width: 121px;
+    color: #18a6de;
+    border: 2px solid #18a6de;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 0 15px;
+    text-align: center;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.copyright-text {
+    height: 18px;
+    width: 663px;
+    color: #293e59;
+    font-family: "Fira Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: center;
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+}
+.social-icons a {
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe;
+}
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+}
+.social-icons a.facebook:hover {
+    background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+    background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+    background-color: #007bb6;
+}
+.social-icons a.instagram:hover {
+    background-color: #ff3eaf;
+}
