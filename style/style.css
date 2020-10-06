@@ -1,0 +1,211 @@
+@font-face {
+    font-family: Fira Sans;
+    src: url(/fonts/FiraSans/FiraSans-Regular.ttf);
+}
+@font-face {
+    font-family: Butler;
+    src: url(/fonts/Butler_and_ButlerStencil/Butler/Butler_Regular.otf);
+}
+
+nav {
+    font-size: 14px;
+    line-height: 20px;
+    color: #484A54;
+    font-weight: 800;
+    font-family: "Fira Sans";
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.active {
+    background-color: #18A6DE;
+    border-radius: 20px;
+    padding: 0 20px;
+    padding-top: 3px;
+    margin: 0 10px;
+}
+
+.nav-link {
+    margin: 0 10px;
+}
+
+.active .nav-link {
+    color: white !important;
+}
+
+.nav-menu {
+    margin-left: 30px;
+}
+
+.hero {
+    height: 70vw;
+}
+
+.circle {
+    width: 880px;
+    height: 880px;
+    border-radius: 440px;
+    background-color: #80C7E5;
+    opacity: 0.56;
+    position: absolute;
+    top: 96px;
+    right: -20px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.step-1-img {
+    width: 755px;
+    height: 566px;
+    position: absolute;
+    background-image: url(/img/Blauer\ Detroit\ D5_612.jpg);
+    z-index: 10;
+    top: 128px;
+    right: 200px;
+}
+
+.text-over {
+    height: 160px;
+    width: 814px;
+    color: #293E59;
+    font-family: Butler;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 80px;
+    top: 200px;
+    position: absolute;
+    z-index: 20;
+}
+
+.how-we-helped-blumar {
+    height: 48px;
+    width: 329px;
+    color: #9B9B9B;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    top: 380px;
+    position: absolute;
+  }
+
+  .cta-button-outline-blue {
+    height: 42px;
+    width: 121px;
+    color: #18A6DE;
+    border: 2px solid #18A6DE;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 0 15px;
+    text-align: center;
+    padding-top: 6px;
+    top: 400px;
+    left: -15px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .cta-button-outline-blue:hover {
+    background-color: #18A6DE;
+    color: white;
+    border: none;
+  }
+
+  .blumarine {
+    height: 32px;
+    width: 98px;
+    color: #484A54;
+    font-family: Butler;
+    font-size: 24px;
+    letter-spacing: -0.3px;
+    line-height: 32px;
+    text-align: right;
+  }
+
+  .front-end-design-ux {
+    height: 18px;
+    width: 131px;
+    color: #9B9B9B;
+    font-family: "Fira Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: right;
+    font-weight: 300;
+  }
+
+.hero-ux {
+    position: relative;
+    top: 520px;
+    left: 200px;
+    z-index: 30;
+}
+
+.group-5 {
+    position: relative;
+    top: 50px;
+}
+
+  .group-3 {
+    box-sizing: border-box;
+    height: 2px;
+    width: 638px;
+    background-color: #80C7E5;
+    position: relative;
+    top: 17px;
+    left: 14px;
+  }
+
+  .oval {
+    border-radius: 100%;
+  }
+
+  .oval-out {
+    box-sizing: border-box;
+    height: 34px;
+    width: 34px;
+    border: 2px solid #18A6DE;
+  }
+.oval-in {
+    height: 8px;
+    width: 8px;
+    background-color: #18A6DE;
+    
+    position: relative;
+}
+
+  .oval-in-1 {
+    top: 11px;
+    left:  12px;
+  }
+
+  .oval-in-2 {
+    top: -22px;
+    left:  212px;
+  }
+
+  .oval-in-3 {
+    top: -30px;
+    left:  424px;
+  }
+
+  .oval-in-4 {
+    top: -38px;
+    left:  649px;
+  }
+
+  .zerogrey-is-a-et-ius {
+    height: 120px;
+    width: 867px;
+    color: #484A54;
+    font-family: Butler;
+    font-size: 32px;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+    text-align: center;
+  }
